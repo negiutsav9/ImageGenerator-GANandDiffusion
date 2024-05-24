@@ -3,7 +3,7 @@ by Utsav Negi
 
 ## Aim
 The aim of this report is to demonstrate the approach used to implement image modelling using
-Generative Adversarial Nets and Denoising Di usion using a subset of CelebA dataset.
+Generative Adversarial Nets and Denoising Diffusion using a subset of CelebA dataset.
 
 ## Source Code Detail
 For this assignment, the details about the source code are as follows:
