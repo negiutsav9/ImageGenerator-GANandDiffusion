@@ -38,12 +38,12 @@ respectively.
 
 ## Image Generation using Denoising Diffusion
 
-The method of Denoising Di usion involves two Markov chain processes taking place simultaneously.
+The method of Denoising Diffusion involves two Markov chain processes taking place simultaneously.
 One process called Di usion takes place by injecting Gaussian noise into a training image at each
 timestep until the image data gets substituted with an isotropic Gaussian noise. Another process called
 Denoising takes place by removing Gaussian noise from a sample of isotropic Gaussian noise at each
 timestep until the sample gets converted into a recognizable image. During these processes, a denoising
-neural network is trained to remove the same amount of noise which was added during the di usion for
+neural network is trained to remove the same amount of noise which was added during the diffusion for
 the same timestep transition.
 
 For this assignment, pre-trained weights are added to the Unet model to generate images due to
